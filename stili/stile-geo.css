@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background: linear-gradient(#f5d797, #f1f1f1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.charaCard{
+    width: 190px;
+    height: 480px;
+    border: 3px solid rgb(156, 130, 14);
+    background-color: rgb(197, 187, 97);
+    border-radius: 20px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.charaNome{
+    text-shadow: 1px 1px 1px #474747;
+}
+
+.charaImage{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: rgb(185, 178, 67);
+    border: 3px solid rgb(156, 130, 14);
+}
+
+.charaRarity{
+    width: 140px;
+    height: 24px;
+}
+
+.desc{
+    width: 120px;
+    position: relative;
+    left: 16%;
+    background-color: rgb(190, 178, 113);
+    border: 3px solid rgb(156, 130, 14);
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px #474747;
+}
+
+.imgSfondo{
+    height: 600px;
+    width: auto;
+    bottom: 28rem;
+}
+
+.bottone{
+    border-radius: 20px;
+    border: 3px solid rgb(156, 130, 14); 
+}
+
+.bottone:hover{
+    transition: transform .3s;
+    background-color: rgb(190, 178, 113);
+    transform: scale(1.1);
+}
+
+.field{
+    border-radius: 20px;
+}
+
+.charaTipoImg{
+    width: 60px;
+    height: auto;
+}
